@@ -1,0 +1,108 @@
+body{
+
+    text-align: center;
+    background-color: rgb(243, 243, 243);
+}
+
+
+
+.ieBox{
+
+    
+    display:inline-flex;
+
+    justify-content: center;
+    background-color: white;
+    -webkit-box-shadow: 2px 1px 5px -2px #000000; 
+box-shadow: 2px 1px 5px -2px #000000;
+}
+.income{
+
+
+    margin:5px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.expense{
+   
+margin:5px;
+margin-right: 50px;
+margin-left: 20px;
+
+}
+hr{
+
+width:25%;
+  
+    border-color:rgb(0, 0, 0);
+}
+.historybox{
+
+
+display: inline-flex;
+
+align-items: center;
+gap: 100px;
+   
+    background-color: white;
+    -webkit-box-shadow: 2px 1px 5px -2px #000000; 
+box-shadow: 2px 1px 5px -2px #000000;
+margin:17px;
+
+
+
+}
+
+.green {
+
+    border-right: green;
+border-right-style: solid;
+border-right-width: 7px;
+}
+
+.red{
+
+
+    border-right: red;
+border-right-style: solid;
+border-right-width: 7px;
+}
+
+button{
+
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:7px;
+   
+}
+
+.outerbox{
+
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.historybox:hover > .dltbutton{
+
+
+ display:inline-block;
+ background-color: red;
+    color:white;
+    border-style:  none;
+
+}
+
+.dltbutton{
+
+    display:none;
+    background-color: red;
+       color:white;
+       border-style:  none;
+}
+
+
+
+
+
